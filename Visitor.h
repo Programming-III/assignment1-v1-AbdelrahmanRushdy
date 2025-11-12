@@ -4,10 +4,26 @@
 #include <string>
 using namespace std;
 
-//define visitor class here
+class Visitor{
+        private:
+        string visitorName;
+        int ticketsBought;
 
+        public:
+        Visitor(string visitorName, int ticketsBought){
+            this->visitorName = visitorName;
+            this->ticketsBought = ticketsBought;
+        }
 
+        void displayInfo(){
+            cout << "Visitor Name: " << visitorName << endl;
+            cout << "Tickets Bought: " << ticketsBought << endl;
+        }
 
+        ~Visitor(){
+
+        }
+    };
 
 
 
