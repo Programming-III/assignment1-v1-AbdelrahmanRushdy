@@ -2,6 +2,9 @@
 #define MAMMAL_H
 
 #include "Animal.h"
+#include <iostream>
+#include <string>
+using namespace std;
 
 class Mammal::Animal{
         private:
@@ -24,10 +27,5 @@ class Mammal::Animal{
 
         }
     };
-
-
-
-
-
 
 #endif
